@@ -1,0 +1,40 @@
+{
+	"name": "Orb-Collector",
+	"tree": {
+		"$className": "DataModel",
+
+        "ReplicatedStorage": {
+            "$className": "ReplicatedStorage",
+            "Source": {
+                "$path": "src/ReplicatedStorage"
+            }
+        },
+        "ServerStorage": {
+            "$className": "ServerStorage",
+            "Source": {
+                "$path": "src/ServerStorage"
+            }
+        },
+        "ServerScriptService": {
+            "$className": "ServerScriptService",
+            "Source": {
+                "$path": "src/ServerScriptService"
+            }
+        },
+        "StarterPlayer": {
+            "$className": "StarterPlayer",
+            "StarterPlayerScripts": {
+                "$className": "StarterPlayerScripts",
+                "Source": {
+                    "$path": "src/StarterPlayerScripts"
+                }
+            },
+            "StarterCharacterScripts": {
+                "$className": "StarterCharacterScripts",
+                "Source": {
+                    "$path": "src/StarterCharacterScripts"
+                }
+            }
+        }
+	}
+}
